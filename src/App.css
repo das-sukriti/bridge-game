@@ -1,0 +1,34 @@
+.App {
+  background-color: #006400;
+  height: 100vh;
+  margin-top: -33px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  user-select: none;
+}
+
+.App-header {
+  background-color: green;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  font-weight: bolder;
+  color: white;
+  top:0;
+  text-align: center;
+}
+
+body {
+  background-color: #006400;
+  min-height: 100vh;
+  color: white;
+}
+
+.team1 {
+  color: deepskyblue;
+}
+
+.team2 {
+  color: orangered;
+}

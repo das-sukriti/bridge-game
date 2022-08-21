@@ -1,0 +1,27 @@
+
+.user {
+  min-height: 100px;
+  min-width: auto;
+}
+
+.flipped-card {
+  cursor: pointer;
+}
+
+.flipped-card img:hover {
+  filter: brightness(120%);
+  filter: contrast(120%);
+  filter: drop-shadow(10px 10px 10px black);
+}
+
+.selected img {  
+  filter: brightness(100%);
+  filter: contrast(100%);
+  filter: drop-shadow(2px 2px 2px black);
+  transform: scale(1.4);
+  border: 1px solid black;
+}
+
+.player span {
+  font-weight: bold;
+}

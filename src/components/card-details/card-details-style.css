@@ -1,0 +1,39 @@
+.details-imgBox {
+  position: absolute;
+  top: 15%;
+
+  -webkit-transition: height 1s;
+  -moz-transition: height 1s;
+  -ms-transition: height 1s;
+  -o-transition: height 1s;
+  transition: height 1s;
+}
+
+.details-imgBox:hover {
+  height: 50%;
+}
+
+.details-imgBox img {
+  border: solid 1px grey;
+  height: 200px;
+}
+
+.details {
+  display: flex;
+  justify-content: center;
+  visibility: hidden;
+  opacity: o;
+  padding-right: 5%;
+}
+
+.sum-box {
+  margin-top: 30%;
+  text-align: center;
+  padding-left: 55px;
+}
+
+.sum-box div {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}

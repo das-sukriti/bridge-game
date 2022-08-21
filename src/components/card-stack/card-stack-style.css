@@ -1,0 +1,11 @@
+.card {
+  height: 10px;
+  width:8px;
+  cursor: pointer;
+}
+
+.card:hover {
+  filter: brightness(120%);
+  filter: contrast(120%);
+  filter: drop-shadow(10px 10px 10px black);
+}
