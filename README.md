@@ -1,4 +1,4 @@
-# bridge-hand
+# Bridge Game
 The goal of this application is to produce a beautiful and functional web app that shuffles four hands and determines the number of points a hand is worth in bridge
 
 To run the application, run the following:
@@ -6,7 +6,8 @@ To run the application, run the following:
 2) npm run start
 
 To run tests:
-1) npm run test
+1) npm run test 
+(Press "a" to run all tests)
 
 On the landing page, we will see for players at a table. Opposite players are marked with the same color to denote that they are playing together. In the center we will see a deck of cards placed.
 
