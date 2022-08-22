@@ -22,20 +22,7 @@ export class CardDetails extends Component {
   }
 
   componentDidMount = () => {
-    PubSub.subscribe("display-cards", (topic, playerName) => {
-      this.setState({
-        playerData: [],
-        playerName: "",
-        qSum: 0,
-        kSum: 0,
-        jSum: 0,
-        aSum: 0,
-        sum: 0,
-        showDetails: "hidden",
-        expand: false,
-        nameClass: "",
-      });
-
+    PubSub.subscribe("display-cards", (topic, playerName) => {      
       this.playerName = playerName;
       let cardData = CardDataProvider.getCardData();
       let qSum = 0;
@@ -134,10 +121,10 @@ export class CardDetails extends Component {
               width: this.state.width,
             }}
           >
-            <span>Queen: {this.state.qSum}</span>
-            <span>King: {this.state.kSum}</span>
-            <span>Jack: {this.state.jSum}</span>
             <span>Ace: {this.state.aSum}</span>
+            <span>King: {this.state.kSum}</span>
+            <span>Queen: {this.state.qSum}</span>            
+            <span>Jack: {this.state.jSum}</span>            
             <span>Total Points: {this.state.sum}</span>
           </div>
         </div>
